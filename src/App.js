@@ -1,5 +1,5 @@
 import React from 'react';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import {Layout, Header, Navigation, Content} from 'react-mdl';
 import {Link} from 'react-router-dom';
 import './App.css';
 import Main from './components/main';
@@ -20,7 +20,7 @@ function App() {
        
         <Content>
             <Main/>
-            <Footer>Made with ❤️ by Hasan Ertas</Footer>
+            <Footer>Made with love by Hasan Ertas</Footer>
         </Content>
     </Layout>
 </div>
